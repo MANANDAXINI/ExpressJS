@@ -1,0 +1,26 @@
+building a rest api that will use json dta from database
+currently i dont have knowldege of databse so i will take data from fake data wbesite that is morockko
+
+Get/user  will give data of all the users
+Get/user/1  will give data of user1
+get/user/2  will give data of user2
+
+... so on
+
+Post /users create a new user
+Post/user1 create a new user1
+Post/user2 create a new user2
+
+....
+
+PATCH/user edit the data of user
+PATCH/user/1 edit the data of user1
+
+....
+
+Delete/user delete the data of user
+Delete/user1 delete the data of user with id1
+Delete/user2 delete the data of user2
+
+
+/api/user/:id here id is dyanamic that means the id is variabel and we will id through keyboard input whatever id we give if ot matche with generated id then 
